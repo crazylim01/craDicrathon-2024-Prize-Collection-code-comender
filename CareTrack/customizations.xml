@@ -1,0 +1,51 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24114.208" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.24114.00208">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <CanvasApps>
+    <CanvasApp>
+      <Name>crb3b_ecaretrack_2cf46</Name>
+      <AppVersion>2024-12-23T18:51:24Z</AppVersion>
+      <Status>Ready</Status>
+      <CreatedByClientVersion>3.24122.12.0</CreatedByClientVersion>
+      <MinClientVersion>3.24122.12.0</MinClientVersion>
+      <Tags>{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Phone","showStatusBar":"false","publisherVersion":"3.24122.12","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20241222T191356Z-3.24122.12.0","coauthoringEnabled":"true","multipleWritersEnabled":"true","acceptedCoauthoringTerms":"true"}</Tags>
+      <IsCdsUpgraded>0</IsCdsUpgraded>
+      <GalleryItemId xsi:nil="true"></GalleryItemId>
+      <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+      <DisplayName>eCareTracker</DisplayName>
+      <Description xsi:nil="true"></Description>
+      <CommitMessage xsi:nil="true"></CommitMessage>
+      <Publisher xsi:nil="true"></Publisher>
+      <AuthorizationReferences>[]</AuthorizationReferences>
+      <ConnectionReferences>{"f7c66bea-6400-4b04-906a-a9a7735a818c":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1717/1.0.1717.3929/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard"},"d424975e-d468-4d38-9322-543ff7a0fd0c":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1723/1.0.1723.3984/sharepointonline/icon.png","dataSources":["Information","Admin/User","Caretaker","Documents","Emergency Contacts","Hospital/Clinic","Medication Reminder_1","Patient","Health Note","Symptom patient","Medicine","Symptom list","Booking Appointment"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://pmjedumy.sharepoint.com/sites/Project-2":{"dataSources":{"Admin/User":{"tableName":"1f05da7f-6c05-48e1-a4f9-32ccb52218c7"},"Caretaker":{"tableName":"d1106148-2ab8-4d47-9833-28779cb2c7ac"},"Documents":{"tableName":"e55d2020-8880-497e-8128-87abc76acdf2"},"Emergency Contacts":{"tableName":"37b71d3d-55f6-4b46-92e1-19987c1b6147"},"Hospital/Clinic":{"tableName":"24d95aed-8dde-4b1a-905f-8affe91a4ba6"},"Medication Reminder_1":{"tableName":"32e8c3ed-3be7-4545-a853-d2c4e4d37578"},"Patient":{"tableName":"4d65dbb5-27c2-4b30-b533-5ebe88daa896"},"Health Note":{"tableName":"5cb2e304-6d3e-4f6d-8134-c8bd62950a80"},"Symptom patient":{"tableName":"a2f2219c-8827-4d88-8e69-e3c7087c7480"},"Medicine":{"tableName":"dfaf3b9f-b332-4d71-9506-111c28d58541"},"Symptom list":{"tableName":"ab4ae852-5a8f-4144-923e-478031da1406"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]},"744d05fe-b35a-4af0-ad39-ccf2da3712e7":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1723/1.0.1723.3984/sharepointonline/icon.png","dataSources":["Emergency Contacts"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write"]},"bf69f501-008c-4d85-b9b8-6afe9d84cf89":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1723/1.0.1723.3984/sharepointonline/icon.png","dataSources":["Booking Appointment"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"https://pmjedumy.sharepoint.com/sites/Project-2":{"dataSources":{"Booking Appointment":{"tableName":"d2f560fb-44c0-4aea-850d-01b85a4b0050"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read","providers/PowerPlatform.Governance/Operations/Write","providers/PowerPlatform.Governance/Operations/Delete"]}}</ConnectionReferences>
+      <DatabaseReferences>{}</DatabaseReferences>
+      <AppComponents>[]</AppComponents>
+      <AppComponentDependencies>[]</AppComponentDependencies>
+      <CanConsumeAppPass>0</CanConsumeAppPass>
+      <CanvasAppType>0</CanvasAppType>
+      <BypassConsent>0</BypassConsent>
+      <AdminControlBypassConsent>0</AdminControlBypassConsent>
+      <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+      <IsCustomizable>1</IsCustomizable>
+      <BackgroundImageUri>/CanvasApps/crb3b_ecaretrack_2cf46_BackgroundImageUri</BackgroundImageUri>
+      <DocumentUri>/CanvasApps/crb3b_ecaretrack_2cf46_DocumentUri.msapp</DocumentUri>
+      <AdditionalUris>
+        <AdditionalUri>/CanvasApps/crb3b_ecaretrack_2cf46_AdditionalUris0_identity.json</AdditionalUri>
+      </AdditionalUris>
+    </CanvasApp>
+  </CanvasApps>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>
